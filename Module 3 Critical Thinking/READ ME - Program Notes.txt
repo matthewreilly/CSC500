@@ -1,0 +1,22 @@
+
+MODULE 3 - CRITICAL THINKING - OPTION 1 - NOTES:
+I want to provide some notes on my program. I deviated from the specified output format (which I consider an improvement). 
+Additionally, I added a small amount of additional capability (as compared to program described in the
+instructions). I made these deviations deliberately with the intet of making my program more user-friendly and to get 
+extra practice. 
+
+Change 1: Output formatting
+- The instructions specify an output in an hours-only format. Ex: 15 (for 3pm). 
+- Rather than 15, my program will output 1500, as this is how the 24-hour clock format is refernced in real life. 
+-- Most people will understand "I'll be there at 1500." Few would likely understand "I'll be there at 15," and may
+even confuse the latter statement with "I'll be there *in* 15 [minutes]."
+
+Change 2: Input options
+- The instructions specify a user input in an hours-only format. My program allows for users to enter current time 
+in EITHER hours-only format (ex: 15) or an hours + minutes fomat (ex: 1500). 
+- This program also allows for users to enter the current time's minutes. Rather than just entering the
+current hour, the user can input current hours and minutes. Ex: 1531. 
+
+Final note:
+I chose to exclude 24 and 2400 as a valid time input. In the military, we use 24-hour clock format almost exclusively,
+so I have some experience with it. We always opt for 0000 instead of 2400, so I made my program do the same. 
